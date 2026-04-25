@@ -5,7 +5,7 @@ public class Libro {
     private String autor;
     private int yearPublicacion;
 
-    // Constructor con validaciones
+
     public Libro(String titulo, String autor, int yearPublicacion) {
         if (titulo == null || titulo.trim().isEmpty()) {
             throw new IllegalArgumentException("El título no puede ser nulo ni vacío");
@@ -21,12 +21,12 @@ public class Libro {
         this.yearPublicacion = yearPublicacion;
     }
 
-    // Getters
+   
     public String getTitulo() { return titulo; }
     public String getAutor() { return autor; }
     public int getYearPublicacion() { return yearPublicacion; }
 
-    // Método solicitado
+  
     public boolean esAntiguo() {
         return this.yearPublicacion < 2000;
     }
