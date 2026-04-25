@@ -21,7 +21,7 @@ public class Libro {
         this.yearPublicacion = yearPublicacion;
     }
 
-   
+   // Fin de la clase
     public String getTitulo() { return titulo; }
     public String getAutor() { return autor; }
     public int getYearPublicacion() { return yearPublicacion; }
